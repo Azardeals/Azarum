@@ -1,0 +1,61 @@
+Operation Time: 2015-Jul-10 04:27:50 America/Los_Angeles PDT : -0700 1436527670
+Total CIM profiles associated with system before operation: 38
+Total CIM profiles associated with merchant account: 204
+Deleted CIM profiles associated with system count: 0
+Total CIM profiles associated with system after operation: 38
+Operation Time: 2015-Jul-10 04:43:35 America/Los_Angeles PDT : -0700 1436528615
+Total CIM profiles associated with system before operation: 38
+Total CIM profiles associated with merchant account: 204
+Deleted CIM profiles associated with system count: 0
+Total CIM profiles associated with system after operation: 38
+Operation Time: 2015-Jul-10 04:43:36 America/Los_Angeles PDT : -0700 1436528616
+Total CIM profiles associated with system before operation: 38
+Total CIM profiles associated with merchant account: 204
+Deleted CIM profiles associated with system count: 0
+Total CIM profiles associated with system after operation: 38
+Operation Time: 2015-Jul-10 04:43:37 America/Los_Angeles PDT : -0700 1436528617
+Total CIM profiles associated with system before operation: 38
+Total CIM profiles associated with merchant account: 204
+Deleted CIM profiles associated with system count: 0
+Total CIM profiles associated with system after operation: 38
+Operation Time: 2015-Jul-10 04:43:39 America/Los_Angeles PDT : -0700 1436528619
+Total CIM profiles associated with system before operation: 38
+Total CIM profiles associated with merchant account: 204
+Deleted CIM profiles associated with system count: 0
+Total CIM profiles associated with system after operation: 38
+Operation Time: 2015-Jul-10 04:45:27 America/Los_Angeles PDT : -0700 1436528727
+Total CIM profiles associated with system before operation: 38
+Total CIM profiles associated with merchant account: 204
+Deleted CIM profiles associated with system count: 0
+Total CIM profiles associated with system after operation: 38
+Operation Time: 2015-Jul-10 04:48:53 America/Los_Angeles PDT : -0700 1436528933
+Total CIM profiles associated with system before operation: 38
+Total CIM profiles associated with merchant account: 204
+Deleted CIM profiles associated with system count: 0
+Total CIM profiles associated with system after operation: 38
+Operation Time: 2015-Jul-10 04:48:59 America/Los_Angeles PDT : -0700 1436528939
+Total CIM profiles associated with system before operation: 38
+Total CIM profiles associated with merchant account: 204
+Deleted CIM profiles associated with system count: 0
+Total CIM profiles associated with system after operation: 38
+Operation Time: 2015-Jul-10 04:51:01 America/Los_Angeles PDT : -0700 1436529061
+Total CIM profiles associated with system before operation: 38
+Total CIM profiles associated with merchant account: 204
+Deleted CIM profiles associated with system count: 0
+Total CIM profiles associated with system after operation: 38
+Operation Time: 2015-Jul-10 04:53:41 America/Los_Angeles PDT : -0700 1436529221
+Total CIM profiles associated with system before operation: 38
+Total CIM profiles associated with merchant account: 204
+Deleted CIM profiles associated with system count: 0
+Total CIM profiles associated with system after operation: 38
+Operation Time: 2015-Jul-10 04:56:10 America/Los_Angeles PDT : -0700 1436529370
+Total CIM profiles associated with system before operation: 38
+Total CIM profiles associated with merchant account: 204
+Deleted CIM profiles associated with system count: 0
+Total CIM profiles associated with system after operation: 38
+Operation Time: 2015-Jul-10 05:17:37 America/Los_Angeles PDT : -0700 1436530657
+Total CIM profiles associated with system before operation: 38
+Total CIM profiles associated with merchant account: 204
+Deleted CIM profiles associated with system count: 0
+Total CIM profiles associated with system after operation: 38
+

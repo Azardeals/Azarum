@@ -1,0 +1,29 @@
+Instructions for Yo!Deals-V4 Installation v1.x/v2.x:
+
+1. Move the files to the root or in public_html folder on the server.
+2. Move all folders from 'DEPENDENCY' folder to the root or in public_html folder on the server.
+2. Please note your server must match the exact requirements required by the product only then it will work fine. You can check the server configurations by running URL : http://{domain-name}/install/info.php
+
+Based upon your PHP version on the server replace the files inside the "_classes" and the "includes" folder on the root, with the files provided in the "INSTALLATION_INSTRUCTIONS" folder with folder names PHP5_6, PHP7_0 and PHP7_1
+
+3. Now, if all the server requirements are matching. Now its time to Create a Database and assign a User with all Privileges. 
+Please note the Database Name, Database Credentials such as host name, password, etc. which will be asked later while doing the installation.
+4. Now, Run the URL "http://{your-domain-name}/install/" and follow the instructions highlighted on the screen.
+5. Set write permissions to all folders and files getting mentioned on the screen ( set 777  ).
+6. Don't forget to delete the "install", "INSTALLATION_FOLDER" and "DATABASE" folders after successful installation. Also, please delete any zip or backup files present on the root directory.
+7. Set the following Cron to execute every one hour and set command "0 */1 * * * wget -q -O /dev/null http://{domain-name}/cron.php"
+8.Set the following Cron to execute every half hour and set command "0 */1 * * * wget -q -O /dev/null http://{domain-name}/cron_update_order_status.php"
+9. Update content/settings on the website as per requirements.
+10. You are ready to have wonderful experience of the website.
+
+Facebook Integration :-
+Signup :- Create new app for facebook and enable fb login module, then add redirect url as -
+Facebook Signup redirect Url :- https://{domain-name}/fb-callback.php
+Facebook merchant redirect url :- https://{domain-name}/merchant/merchant-facebook-update.php
+
+Apple Signup redirect Url :- https://{domain-name}/apple-callback.php 
+ 
+For merchant :- Facebook Fan page :-
+Add merchant fb Facebook Fanpage Id. And get FACEBOOK GET ACCESS TOKEN.
+
+Required modules of PHP as :- php-dom and php7.0-xml

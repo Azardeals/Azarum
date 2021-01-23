@@ -1,0 +1,118 @@
+
+ul#topnav { 
+	display: block;
+	float: left;
+	margin: 0;
+	padding: 0;
+	position:relative !important;
+	z-index: 1000 !important;
+}
+ul#topnav li {
+	background: url(../images/pipe.jpg) no-repeat right top;
+	display: table-cell;
+	float: left;
+	line-height:39px;
+	margin: 0;
+	z-index: 1000 !important;
+}
+ul#topnav li a {font-family: 'OpenSansSemibold';
+	color: #FFFFFF;
+	cursor: pointer;
+	display: block;
+	font-size: 14px;
+	margin-right: 2px;
+	padding: 0 16px;
+	text-shadow:0px 1px 0px #084d84;
+	text-transform:uppercase;
+}
+ul#topnav li.nonebackground {
+	background: none !important;
+	padding: 0 0 0;
+}
+ul#topnav li:hover a, ul#topnav li a:hover {
+	text-decoration: none;
+	background:url(../images/bgr_hover.jpg) repeat-x 0 0;
+}
+ul#topnav li a.selected {
+	text-decoration: none;
+	background:url(../images/bgr_hover.jpg) repeat-x 0 0;
+}
+/*------------drop down start----------------*/
+
+ul#topnav li .sub {
+	background:#1477c6;
+	display: none;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	top:39px !important;
+	z-index: 1000 !important;
+	float: left;
+	/*left: 0;*/
+	padding: 15px 5px 15px 15px;
+	position: absolute;
+	border:solid 1px #084d84;
+	border-top: none;
+	width:705px !important;
+	left:15px !important;
+}
+ul#topnav li .row {
+	clear: both;
+	float: left;
+	margin-bottom: 10px;
+	width: 100%;
+}
+ul#topnav li .sub ul {
+	float: left;
+	list-style: none outside none;
+	margin:0px 20px 0px 0px;
+	padding: 0;
+	width:331px;
+}
+ul#topnav .sub ul li {
+	color: #FFFFFF;
+	width: 100%;
+}
+ul#topnav .sub ul li {
+	background: none repeat scroll 0 0 transparent !important;
+}
+ul#topnav .sub ul li a {
+	color: #FFFFFF;
+	display: block;
+	float: none;
+	font-size:13px;
+	font-weight: normal;
+	height: auto;
+	margin: 0 0px 0px 0;
+	padding:3px 5px 4px 15px;
+	text-align: left;
+	text-decoration: none;
+	text-indent: 0;
+	text-transform: none;
+	line-height:20px !important;
+	border-bottom: solid 1px #0f66ac;
+	text-transform: none;
+	background: url(../images/arrow-white.png) no-repeat 0 10px;
+}
+ul#topnav .sub ul li a.nobg{
+	border-bottom: none;
+}
+ul#topnav .sub ul li a:hover {background:url(../images/arrow-white.png) no-repeat 0 10px;
+	color: #fff;
+}
+
+#navbar {
+
+
+background:-moz-linear-gradient(top, #3687C8 0%, #1376C6 100%); /* FF3.6+ */
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0%, #3687C8), color-stop(100%, #1376C6)); /* Chrome,Safari4+ */
+	background:-webkit-linear-gradient(top, #3687C8 0%, #1376C6 100%); /* Chrome10+,Safari5.1+ */
+	background:-o-linear-gradient(top, #3687C8 0%, #1376C6 100%); /* Opera11.10+ */
+	background:-ms-linear-gradient(top, #3687C8 0%, #1376C6 100%); /* IE10+ */
+	background:linear-gradient(top, #3687C8 0%, #1376C6 100%); /* W3C */
+ filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#3687C8', endColorstr='#1376C6');
+    border-bottom: 1px solid #084D84;
+    clear: both;
+    float: left;
+    width: 100%;
+}

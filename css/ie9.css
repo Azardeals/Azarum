@@ -1,0 +1,6 @@
+@charset "utf-8";
+/* CSS Document */
+
+.detailsTable{width:100%;/* background:#9a95b3;*/}
+.detailsTable td{ background:url(../images/grey_border.gif) repeat-y right; padding:3px 0 3px 0; color:#FFFFFF; text-align:center;font-family: 'CalibriRegular'; font-size:17px; }
+.detailsTable td.hights{height:15px;}

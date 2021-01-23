@@ -1,0 +1,14 @@
+@CHARSET "ISO-8859-1";
+.div_msg{
+    border: none;
+    margin: 5px;
+}
+
+.div_msg ul{
+    list-style: none;
+}
+
+.div_msg ul li{
+    color: #000;
+    font-weight: bold;
+}

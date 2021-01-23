@@ -1,0 +1,179 @@
+
+
+/** system messag **/
+
+.system_message{top:20px;right:20px;position: fixed;z-index:1000;}
+.system_message .closeMsg, #mbsmessage .close{ padding: 0; font-size: 0; cursor: pointer;text-decoration: none;  position:absolute;width: 25px; height: 25px; display: block; right:10px; top:6px; text-align: center; line-height: 25px; z-index: 1;}
+.system_message .closeMsg:before, #mbsmessage .close:before{ content: "\f129";font-family: "Ionicons"; font-size:16px; color:#fff;}
+
+
+.div_error{ text-align:left;font-weight: 700;min-width:400px; max-width: 500px; box-shadow: 0 0 5px rgba(51, 51, 51, 0.5), inset 0 -1px 0 rgba(255,255,255,.2);
+    background-size: 40px 40px;
+    background-image: -webkit-gradient(linear, left top, right bottom,
+        color-stop(.25, rgba(255, 255, 255, .05)), color-stop(.25, transparent),
+        color-stop(.5, transparent), color-stop(.5, rgba(255, 255, 255, .05)),
+        color-stop(.75, rgba(255, 255, 255, .05)), color-stop(.75, transparent),
+        to(transparent));
+        background-image: -webkit-linear-gradient(135deg, rgba(255, 255, 255, .05) 25%, transparent 25%,
+                            transparent 50%, rgba(255, 255, 255, .05) 50%, rgba(255, 255, 255, .05) 75%,
+                            transparent 75%, transparent);
+        background-image: -moz-linear-gradient(135deg, rgba(255, 255, 255, .05) 25%, transparent 25%,
+                            transparent 50%, rgba(255, 255, 255, .05) 50%, rgba(255, 255, 255, .05) 75%,
+                            transparent 75%, transparent);
+        background-image: -ms-linear-gradient(135deg, rgba(255, 255, 255, .05) 25%, transparent 25%,
+                            transparent 50%, rgba(255, 255, 255, .05) 50%, rgba(255, 255, 255, .05) 75%,
+                            transparent 75%, transparent);
+        background-image: -o-linear-gradient(135deg, rgba(255, 255, 255, .05) 25%, transparent 25%,
+                            transparent 50%, rgba(255, 255, 255, .05) 50%, rgba(255, 255, 255, .05) 75%,
+                            transparent 75%, transparent);
+        background-image: linear-gradient(135deg, rgba(255, 255, 255, .05) 25%, transparent 25%,
+                            transparent 50%, rgba(255, 255, 255, .05) 50%, rgba(255, 255, 255, .05) 75%,
+                            transparent 75%, transparent);                                   
+   
+     border: 1px solid;
+     color: #fff;
+     padding:10px 40px 10px 15px;font-size:16px;
+     position:relative;
+     text-shadow: 0 1px 0 rgba(0,0,0,.5);
+     -webkit-animation: animate_bg 2s linear infinite;
+     animation: animate_bg 2s linear infinite;
+     background-color: #fa6561;
+     border-color: #de2b26;
+}
+.div_error ul{display:block; vertical-align:middle; margin:10px 0 0; list-style: none;}
+.div_error li{font-weight: normal; font-size: 13px; color: #fff; position: relative; padding:0 0 5px 20px;}
+.div_error li a{font-weight: normal; color: #fff; position: relative; text-decoration: none; cursor: default;}
+.div_error li:before{content: "\f100";font-size:15px; color: #fff; font-family: "Ionicons"; line-height: 1; position: absolute; left:-2px; top:1px; text-shadow: none;}
+
+@-webkit-keyframes animate_bg
+{
+    from {
+        background-position: 0 0;
+    }
+    to {
+       background-position: -80px 0;
+    }
+}
+
+
+@-moz-keyframes animate_bg
+{
+    from {
+        background-position: 0 0;
+    }
+    to {
+       background-position: -80px 0;
+    }
+}
+
+
+@keyframes animate_bg {
+    from {
+        background-position: 0 0;
+    }
+    to {
+       background-position: -80px 0;
+    }
+}
+
+.div_msg, #mbsmessage {font-weight: 700;min-width:400px; max-width: 500px; box-shadow: 0 0 5px rgba(51, 51, 51, 0.5), inset 0 -1px 0 rgba(255,255,255,.2);
+    background-size: 40px 40px;
+    background-image: -webkit-gradient(linear, left top, right bottom,
+    color-stop(.25, rgba(255, 255, 255, .05)), color-stop(.25, transparent),
+    color-stop(.5, transparent), color-stop(.5, rgba(255, 255, 255, .05)),
+    color-stop(.75, rgba(255, 255, 255, .05)), color-stop(.75, transparent),
+    to(transparent));
+    background-image: -webkit-linear-gradient(135deg, rgba(255, 255, 255, .05) 25%, transparent 25%,
+                        transparent 50%, rgba(255, 255, 255, .05) 50%, rgba(255, 255, 255, .05) 75%,
+                        transparent 75%, transparent);
+    background-image: -moz-linear-gradient(135deg, rgba(255, 255, 255, .05) 25%, transparent 25%,
+                        transparent 50%, rgba(255, 255, 255, .05) 50%, rgba(255, 255, 255, .05) 75%,
+                        transparent 75%, transparent);
+    background-image: -ms-linear-gradient(135deg, rgba(255, 255, 255, .05) 25%, transparent 25%,
+                        transparent 50%, rgba(255, 255, 255, .05) 50%, rgba(255, 255, 255, .05) 75%,
+                        transparent 75%, transparent);
+    background-image: -o-linear-gradient(135deg, rgba(255, 255, 255, .05) 25%, transparent 25%,
+                        transparent 50%, rgba(255, 255, 255, .05) 50%, rgba(255, 255, 255, .05) 75%,
+                        transparent 75%, transparent);
+    background-image: linear-gradient(135deg, rgba(255, 255, 255, .05) 25%, transparent 25%,
+                        transparent 50%, rgba(255, 255, 255, .05) 50%, rgba(255, 255, 255, .05) 75%,
+                        transparent 75%, transparent);                                
+
+
+     border: 1px solid;
+     color: #fff;
+     padding:10px 40px 10px 15px;font-size:16px;
+     position:relative;
+     text-shadow: 0 1px 0 rgba(0,0,0,.5);
+    -webkit-animation: animate_bg_green 2s linear infinite;
+     animation: animate_bg_green 2s linear infinite;
+     background-color: #61ba74;
+     border-color: #3d9450;
+}
+.div_msg ul{display:block; vertical-align:middle;list-style: none; margin: 10px 0 0;}
+.div_msg li{font-weight: normal; font-size: 13px; position: relative;padding:0 0 5px 20px;}
+.div_msg li a{font-weight: normal; font-size: 13px; text-decoration: none; color: #fff; cursor: default;}
+.div_msg li:before{width:3px; height:12px;background: #fff; position: absolute; left:5px; bottom:8px; content: "";
+       -webkit-transform: rotate(44deg);
+       -moz-transform: rotate(44deg);
+        -ms-transform: rotate(44deg);
+         -o-transform: rotate(44deg);
+            transform: rotate(44deg);}
+.div_msg li:after{width:3px; height:7px;background: #fff; position: absolute; left:-1px; bottom:8px; content: "";
+    -webkit-transform: rotate(-55deg);
+       -moz-transform: rotate(-55deg);
+        -ms-transform: rotate(-55deg);
+         -o-transform: rotate(-55deg);
+            transform: rotate(-55deg);}
+
+
+@-webkit-keyframes animate_bg_green
+{
+    from {
+        background-position: 0 0;
+    }
+    to {
+       background-position: -80px 0;
+    }
+}
+
+
+@-moz-keyframes animate_bg_green
+{
+    from {
+        background-position: 0 0;
+    }
+    to {
+       background-position: -80px 0;
+    }
+}
+
+
+@keyframes animate_bg_green {
+    from {
+        background-position: 0 0;
+    }
+    to {
+       background-position: -80px 0;
+    }
+}
+
+
+#mbsmessage{top:80px;right:20px;position: fixed;z-index:1000;}
+
+
+/* validation error messages */
+.error{border-color: #f25454!important;}
+.errorlist{margin: 0; list-style: none; padding:2px 10px 4px; position: relative; background: #fdf7f6;}
+.errorlist li:before{ content: "\f100";font-size:15px; color: #f44336; font-family: "Ionicons"; line-height: 1; position: absolute; left: 0; top: 0;}
+.errorlist li a{color: #f44336;font-size:12px; text-transform:none; text-decoration: none;}
+.errorlist li:last-child{padding-bottom:0;}
+.errorlist li{font-size:12px;position:relative; padding:0 0 0 20px;}
+
+
+
+@media only screen and (max-width:990px) {
+.system_message, #mbsmessage  {left: 10px;right: 10px;top:10px;}    
+.div_msg, .div_error, #mbsmessage {font-size: 14px;min-width: 1%;padding: 8px 35px 8px 8px;width: 100%;min-width: 1%;max-width: 100%;}  
+}
+

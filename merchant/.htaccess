@@ -1,0 +1,7 @@
+
+### Start McAfeeSECURE Code DO NOT EDIT ###
+<IfModule mod_substitute.c>
+AddOutputFilterByType SUBSTITUTE text/html
+Substitute "s|</body>|<!-- Start McAfeeSecure Code --><script type=\"text/javascript\" src=\"//cdn.ywxi.net/js/1.js\" async=\"true\"></script><!-- End McAfeeSecure Code --></BODY>|ni"
+</IfModule>
+### End McAfeeSECURE Code DO NOT EDIT ###

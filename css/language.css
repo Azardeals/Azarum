@@ -1,0 +1,18 @@
+
+.navigations > li{float: left; padding: 0 15px; margin: 0 -1px;}
+.tabs__dual li{font-size: 1.7em;}
+.sectiontable .formwrap__table input[type="submit"]{padding: 0 20px;}
+
+.items__verticaly .item__time{font-size: 0.8em;}
+.timer{font-size: 1.3em;}
+.ratings li{padding: 0 2px 0 0 !important;}
+.item__time{margin: 12px 0 0;font-size: 0.8em;}
+
+@media only screen and (min-width:991px) and (max-width:1050px) {
+#banner .content {left: 45%;margin: 0 0 0 -250px;width: 500px;}
+.searchbar input[type="text"]{font-size: 0.8em;}
+   .item__details .item__price .item__price_discounted{display: inline-block;}
+}
+
+
+

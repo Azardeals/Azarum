@@ -1,0 +1,55 @@
+[17-May-2013 16:13:10 Europe/Berlin] DEBUG - HTTP request details
+[17-May-2013 16:13:10 Europe/Berlin] DEBUG OBJECT - Array
+(
+    [method] => POST
+    [url] => https://api.login.yahoo.com/oauth/v2/get_request_token
+    [code] => 200
+    [requestHeaders] => Array
+        (
+            [0] => Accept: application/json
+            [1] => Content-Type: application/x-www-form-urlencoded
+        )
+
+    [requestBody] => oauth_callback=http%3A%2F%2Fwww.zumit.it%2Fbeta%2Fcontact-importer%2Fyahoo%2Findex.php%3Fin_popup&oauth_consumer_key=dj0yJmk9MTZ3TzhBOWhDaDkzJmQ9WVdrOWFWZG5lbXBITldNbWNHbzlOelUyTnpZeE9EWXkmcz1jb25zdW1lcnNlY3JldCZ4PTFi&oauth_nonce=406d7db79b0123e874f223dac5e990ed&oauth_signature=3iLx6wLQLaj8ebHtAutqqsRuhqE%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1368799989&oauth_version=1.0
+    [responseHeaders] => Array
+        (
+            [Date] => Fri, 17 May 2013 14:13:10 GMT
+            [P3P] => policyref="http://info.yahoo.com/w3c/p3p.xml", CP="CAO DSP COR CUR ADM DEV TAI PSA PSD IVAi IVDi CONi TELo OTPi OUR DELi SAMi OTRi UNRi PUBi IND PHY ONL UNI PUR FIN COM NAV INT DEM CNT STA POL HEA PRE LOC GOV"
+            [Vary] => Accept-Encoding
+            [Connection] => close
+            [Transfer-Encoding] => chunked
+            [Content-Type] => text/plain; charset=utf-8
+            [Cache-Control] => private
+        )
+
+    [responseBody] => oauth_token=hnrpjcm&oauth_token_secret=5d948e868a3dd2f467591d09c6b3e99721921ec4&oauth_expires_in=3600&xoauth_request_auth_url=https%3A%2F%2Fapi.login.yahoo.com%2Foauth%2Fv2%2Frequest_auth%3Foauth_token%3Dhnrpjcm&oauth_callback_confirmed=true
+)
+
+[17-May-2013 16:13:47 Europe/Berlin] DEBUG - HTTP request details
+[17-May-2013 16:13:47 Europe/Berlin] DEBUG OBJECT - Array
+(
+    [method] => POST
+    [url] => https://api.login.yahoo.com/oauth/v2/get_token
+    [code] => 200
+    [requestHeaders] => Array
+        (
+            [0] => Accept: application/json
+            [1] => Content-Type: application/x-www-form-urlencoded
+        )
+
+    [requestBody] => oauth_consumer_key=dj0yJmk9MTZ3TzhBOWhDaDkzJmQ9WVdrOWFWZG5lbXBITldNbWNHbzlOelUyTnpZeE9EWXkmcz1jb25zdW1lcnNlY3JldCZ4PTFi&oauth_nonce=ba5b4d4c2a93e2143de75e94778077ed&oauth_signature=vz6Hm%2FDecL0BZL7BqyMd%2BRxIU44%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1368800026&oauth_token=hnrpjcm&oauth_verifier=vjc9mh&oauth_version=1.0
+    [responseHeaders] => Array
+        (
+            [Date] => Fri, 17 May 2013 14:13:47 GMT
+            [P3P] => policyref="http://info.yahoo.com/w3c/p3p.xml", CP="CAO DSP COR CUR ADM DEV TAI PSA PSD IVAi IVDi CONi TELo OTPi OUR DELi SAMi OTRi UNRi PUBi IND PHY ONL UNI PUR FIN COM NAV INT DEM CNT STA POL HEA PRE LOC GOV"
+            [Vary] => Accept-Encoding
+            [Connection] => close
+            [Transfer-Encoding] => chunked
+            [Content-Type] => text/plain; charset=utf-8
+            [Cache-Control] => private
+        )
+
+    [responseBody] => oauth_token=A%3Dpvt979zmjyfpKs1N8cnbgB69K4P6IecAgjEAvFWWVxs0XNWQZRXUr9k4Nt7Nz0faS.r4OJMKPrrs2pYPA4eF07kAzuR75fFEG5P9TBb23OSupvYwHfFCpxFHcz_7CH8jI.ZQLBPEeQ6ESCJDkL8bvRILt1Gx8vTyVPBYhSWM3ImsDCoAPhzfD0GV1SHBFxuO4u2WqQ.DP9Hby8KFV95Fzkw0C5hgBu.BcZMn8.fTZyoC44jMd8q3m2Ol1rZ9ChvgACjJxnjzfgNGa0ghftTvTH9xcKNlQHZmtR0GpDgdrjWhBZyCDPB5nLfjoGh4smpHCludzJv1ylZjexsABiPeYd9XxIebddtijo24iLXwvUoxLHYfQhpYP5JJeMMp1VAxeOFIQ8eCRRMn6QS1wc8ljvx5DOb3T2E_e_jw8rFmoAiej_c_UsBhQlCnZ8bJxlkHsngjnS4L_NfGBz_pwVbwjd5DLs.17m679ishYzy1a2Kivu57FHILOWMu1yBCXkfFLBT_WREcCo1bUUES2IjcBvwYTFyMSnoJXWYBcUGyb2ApZOvG1.qE87svUPLtFet8ANGBYxGApuV9NXu9GjvRTRxarTcnlCx_k3TC.7i4OdZU7kM_xylCLf0kcrbDbvlIeTxwMcfQb_DnCnV88okPmgfC7XmOMmBzD02NDeBx1tNaho1EeW0sQ3XO07K2HJRZwSTw_E2zNF81XOxNB.trWl.vJ0e3qNdihOTHYzUyku3W21SFfwj6SkT9fA--&oauth_token_secret=35967d054ac1713b0c642c653653e932060ddb7b&oauth_expires_in=3600&oauth_session_handle=ABs7llGaECHhU3mRrnsxQ._OYRjtPSB6A_obk3rOg5OEpc5zTQ--&oauth_authorization_expires_in=778683620&xoauth_yahoo_guid=KQ6UABJZZZXQNCTANSAMNKFYL4
+)
+
+[17-May-2013 16:13:47 Europe/Berlin] DEBUG - AT expires in 3600; ASH expires in 778683620

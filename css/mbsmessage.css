@@ -1,0 +1,40 @@
+@CHARSET "ISO-8859-1";
+#mbsmessage{
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	text-align: center;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	font-size:12px;
+	font-weight:normal;
+        z-index:99;
+}
+
+#mbsmessage td{
+padding:0px;
+margin:0px;
+}
+
+#mbsmessage .content, #mbsmessage .tdclose{
+	background: #ff0;
+	color: #000;
+	font-weight: bold;
+}
+
+#mbsmessage .content{
+	padding: 0px 10px;
+}
+
+#mbsmessage .tdclose img{position: static; margin: 4px 0 0;
+	cursor: pointer;
+}
+
+#mbsmessage .content a{
+	text-decoration: underline;
+}
+
+#mbsmessage .content a:hover{
+	text-decoration: none;
+}
