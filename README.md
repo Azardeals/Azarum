@@ -1,2 +1,2 @@
 # Azarum
-A marketplace for Local deals
+A marketplace for Local deals in Germany.
