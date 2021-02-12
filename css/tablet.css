@@ -214,7 +214,7 @@ body.filter__show #header{z-index:1;}
 .tabs__centered{display: block;}
 .txt__wrap .themebtn{font-size: 0.8em;}
 .tabs__centered ul li{border-bottom: none;}
-.tabs__centered li a.active:before{background: #ff7b3d;
+.tabs__centered li a.active:before{background: #ffba05;
 -webkit-transform: scale(1);
 -moz-transform: scale(1);
 -ms-transform: scale(1);
@@ -386,7 +386,7 @@ body.toggled_left,.body.toggled_right{overflow: hidden;}
 .page__panel-right .col-md-3{width: 30%;}
 
 .tabs__centered ul li{border-bottom: none;}
-.tabs__centered li a.active:before{background: #ff7b3d;
+.tabs__centered li a.active:before{background: #ffba05;
 -webkit-transform: scale(1);
 -moz-transform: scale(1);
 -ms-transform: scale(1);
